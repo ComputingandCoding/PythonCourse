@@ -1,0 +1,17 @@
+Upgrading Pip
+python -m pip install --upgrade pip
+
+installling virtualenvironment
+pip install virtualenv
+
+Launch virtualenv
+cd your_project
+
+Flask project>virtualenv env
+Using base prefix 'c:\\python'
+New python executable in C:\Users\UserName\Desktop\COMPUT~1\FLASKP~1\env\Scripts\python.exe
+Installing setuptools, pip, wheel...done.
+C:\Users\UserName\Desktop\Computing and coding website\Flask project\env>cd scripts
+C:\Users\UserName\Desktop\Computing and coding website\Flask project\env\Scripts>activate.bat
+
+(env) C:\Users\UserName\Desktop\Computing and coding website\Flask project\env\Scripts>
