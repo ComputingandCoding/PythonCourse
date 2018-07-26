@@ -1,5 +1,43 @@
 # Loops Exmaple
 
+A Loop is a LOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPP
+
 names = ["Zaynab","Ibrahim","Bob","Ali","Danny"]
 for name in names:
     print("Hi "+name+"!")
+
+
+======================================
+
+Count = 1
+total = 0
+while count <= 1-:
+   total += count
+   count +=1
+print("The total =" , total)
+
+*** ( += ) means add a value to the current variable
+
+=====================================================================
+
+The break and continue statments
+
+while True:
+    command = input("Enter a Command:")
+    if (command == 'quit'):
+       break
+    print(command)
+ print(" A loop finished")
+ 
+ =========================================================
+
+ creating a basic for loop
+ 
+ LettersNum = 1
+ for letter in "Hello How are you !" :
+    print("Letter " , LettersNum, "is" , letter)
+    LetterNum += 1
+    
+    
+=============================================================
+
