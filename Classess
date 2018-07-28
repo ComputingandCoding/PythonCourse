@@ -1,1 +1,138 @@
 
+PERSON CLASS:
+
+class Person():
+	def __init__(self,inputName,inputAge,inputCharacter,inputGender,inputScore):
+		self.name = inputName
+		self.age = inputAge
+		self.character = inputCharacter
+		self.gender = inputGender
+		self.score = inputScore
+
+	def welcome(self):
+		print(self.name.title() + " welcome to the show!!!")
+
+	
+x = Person('bob', 8 , 'Student', 'Male', 0)
+#x.welcome()
+print(x.name, "You are " , x.age , "years old and your gender is " , x.gender, "also you are", x.character, " and your Score is :", x.score)
+
+y = Person("ali", 100, "Lion", 'Male', 0)
+y.welcome
+print(y.name, "You are " , y.age , "years old and your gender is " , y.gender, "also you are", y.character, " and your Score is :", y.score)
+========================================================================================================================================
+
+Coordinate point Class:
+
+class Point:
+	def __init__(self,x,y):
+		self.x = x
+		self.y = y
+
+p1 = Point(3,5)
+print(p1.x)
+print(p1.y)
+
+p2 = Point(13,15)
+print(p2.x, p2.y)
+
+
+p3 = Point(23,25)
+print(p3.x)
+print(p3.y)
+
+p4 = Point(33,45)
+print(p4.x)
+print(p4.y)
+
+===============================================================================================
+
+
+Rectangle Class
+
+class Rectangle():
+	def __init__(self,length,width):
+		self.length = length
+		self.width = width
+
+	def Area(self):
+		return self.length*self.width
+
+MyRectangle = Rectangle(20,30)
+print(MyRectangle.Area())
+
+==========================================================================
+
+
+DOG Class
+
+class Dog:
+
+    # Class Attribute
+    species = 'mammal'
+
+    # Initializer / Instance Attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # instance method
+    def description(self):
+        return "{} is {} years old".format(self.name, self.age)
+
+    # instance method
+    def speak(self, sound):
+        return "{} says {}".format(self.name, sound)
+
+# Instantiate the Dog object
+mikey = Dog("Mikey", 6)
+
+# call our instance methods
+print(mikey.description())
+print(mikey.speak("Gruff Gruff"))
+
+=======================================================================
+
+INHERITANCE EXAMPLE
+
+# Parent class
+class Dog:
+
+    # Class attribute
+    species = 'mammal'
+
+    # Initializer / Instance attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # instance method
+    def description(self):
+        return "{} is {} years old".format(self.name, self.age)
+
+    # instance method
+    def speak(self, sound):
+        return "{} says {}".format(self.name, sound)
+
+
+# Child class (inherits from Dog class)
+class RussellTerrier(Dog):
+    def run(self, speed):
+        return "{} runs {}".format(self.name, speed)
+
+
+# Child class (inherits from Dog class)
+class Bulldog(Dog):
+    def run(self, speed):
+        return "{} runs {}".format(self.name, speed)
+
+
+# Child classes inherit attributes and
+# behaviors from the parent class
+jim = Bulldog("Jim", 12)
+print(jim.description())
+
+# Child classes have specific attributes
+# and behaviors as well
+print(jim.run("slowly"))
+=====================================================================================
