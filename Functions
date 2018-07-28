@@ -3,6 +3,17 @@ def hello():
     """ prints hello, world """
     print("Hello, world!")
     
+=======================================================
+def greet(name,number):
+	print("Hello, " + name*number + "!")
+
+name = input("Enter Your name:")
+number = 5
+
+greet(name,number)
+
+=======================================================
+
 #%% 
 def areacircle(radius):
     """ Computes the area of a circle of the given radius """
@@ -27,3 +38,57 @@ def areacircle(radius):
     fullname = fname + " " + lname
 
     print("Your name is:", fullname)
+
+
+===========================================================
+
+Fortune teller program
+
+import random
+def getAnswer(answerNumber):
+	if answerNumber == 1:
+		return 'It is certain'
+	elif answerNumber == 2:
+		return 'It is decidedly so'
+	elif answerNumber == 3:
+		return 'Yes'
+	elif answerNumber == 4:
+		return 'Reply hazy try again'
+	elif answerNumber == 5:
+		return 'Ask again later'
+	elif answerNumber == 6:
+		return 'Concentrate and ask again'
+	elif answerNumber == 7:
+		return 'My reply is no'
+	elif answerNumber == 8:
+		return 'Outlook not so good'
+	elif answerNumber == 9:
+		return 'Very doubtful'
+r = random.randint(1, 9)
+fortune = getAnswer(r)
+print(fortune)
+
+==================================================================
+
+def print_menu():
+	print('1. Kilometers to Miles')
+	print('2. Miles to Kilometers')
+
+def km_miles():
+	km = float(input('Enter distance in kilometers: '))
+	miles = km / 1.609
+#	print('Distance in miles: {0}'.format(miles))
+	print('Distance in miles:' miles)
+	
+def miles_km():
+	miles = float(input('Enter distance in miles: '))
+	km = miles * 1.609
+	print('Distance in kilometers: {0}'.format(km))
+print_menu()
+choice = input('Which conversion would you like to do?: ')
+if choice == '1':
+	km_miles()
+if choice == '2':
+	miles_km()
+    
+   =============================================================================
