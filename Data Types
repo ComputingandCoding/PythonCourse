@@ -1,1 +1,41 @@
+Program to check even or odd numbers:
+
+print("Hello")
+num=int(input("Enter the number to check:"))
+
+if (num%2 == 0):
+	print("Your Number is EVEN")
+else:
+	print("Your Number is ODD")
+
+print("Thanks for using my program")
+
+================================================
+
+Remainder - print all the remainders
+
+print(1%2)
+print(2%2)
+print(3%2)
+print(4%2)
+print(5%2)
+print(6%2)
+print(7%2)
+print(8%2)
+print(9%2)
+print(10%2)
+
+==================================================
+Program to Check Leap Year:
+
+print("Enter the Year to check if it is a Leap Year")
+print("==============================================")
+year = int(input("Enter the Year:"))
+if year%4 == 0:
+	
+	print("Yay!! your year is Leap year, you have 29 Days in Feburary :)")
+else:
+	print(" sorry your have one less day in this year :(")
+  
+  ==========================================================================
 
