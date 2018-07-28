@@ -56,3 +56,42 @@ while (stop == 'Y'):
 
 print("==========================================")
 print("Thanks for asking me question about leap year\n Leap Year a year with 29 Days in Feburary\n and it comes every 4 years")
+
+
+================================================================
+
+different types of for loops
+
+for i in range(1, 4):
+	print(i)
+
+for i in range(5):
+	print(i)
+
+
+for i in range(1,10,2):
+	print(i)
+	
+fruit = "kiwi"
+for char in fruit:
+	print char
+print "done!
+
+Adding certain letters in a word or sentence:
+
+word = ’banana’
+count = 0
+for letter in word:
+	if letter == ’a’:
+		count = count + 1
+	print count
+================================================================
+
+fruit = 'kiwi'
+for index in range(len(fruit)):
+	print (index, fruit[index])
+	
+=================================================================
+
+
+===================================================================
