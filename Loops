@@ -92,6 +92,32 @@ for index in range(len(fruit)):
 	print (index, fruit[index])
 	
 =================================================================
+To find your Grade
 
+
+print("DO you want to Play Enter Y or N")
+RUN = input()
+while (RUN == 'Y'):
+	print("PROGRAM TO FIND YOUR GRADE")
+	print("==========================")
+	score = int(input("Enter Your score to find out your grade:"))
+	if score >= 90:
+		letter = 'A'
+		print(letter)
+	elif score >= 80:
+		letter = 'B'
+		print(letter)
+	elif score >= 70:
+		letter = 'C'
+		print(letter)
+	elif score >=60:
+		letter = 'D'
+		print(letter)
+	else:
+		letter = 'F'
+		print(letter)
+	print("DO you want to Play Enter Y or N")
+	RUN = input()
+print("Thanks for using me")
 
 ===================================================================
