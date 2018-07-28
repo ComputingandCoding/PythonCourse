@@ -40,4 +40,19 @@ while True:
     
     
 =============================================================
+Leap Year Program with Loop
 
+print("Enter the Year to check if it is a Leap Year")
+print("==============================================")
+stop = input("Do you want to Play Y or N : ")
+
+while (stop == 'Y'):
+	year = int(input("Enter the Year:"))
+	if year%4 == 0:
+		print("Yay!! your year is Leap year, you have 29 Days in Feburary :)")
+	else:
+		print(" sorry your have one less day in this year :(")
+	stop = input("Do you want to Play Y or N : ")
+
+print("==========================================")
+print("Thanks for asking me question about leap year\n Leap Year a year with 29 Days in Feburary\n and it comes every 4 years")
