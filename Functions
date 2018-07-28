@@ -1,1 +1,29 @@
+#%%
+def hello():
+    """ prints hello, world """
+    print("Hello, world!")
+    
+#%% 
+def areacircle(radius):
+    """ Computes the area of a circle of the given radius """
+    area = 3.14*radius**2
+    print("The area of a circle of radius",radius,"is", area)
+ 
+ 
+ def fahrenheit_to_celsius(temp):
+    """ Converts Fahrenheit temperature to Celsius. 
+        Formula is 5/9 of temp minus 32 """
+    # Note that this line is not executed
+    # end='' keeps print from starting a new line.
+    newTemp = 5*(temp-32)/9
+    print("The Fahrenheit temperature",temp,"is equivalent to",newTemp,end='')
+    print(" degrees Celsius")
+    
+    
+    def name():
+    """ Input first and last name, combine to one string and print """
+    fname = input("Enter your first name: ")
+    lname = input("Enter your last name: ")
+    fullname = fname + " " + lname
 
+    print("Your name is:", fullname)
