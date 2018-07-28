@@ -1,1 +1,23 @@
 
+Alien Translator:
+
+alienDictionary = {"we":"vorag", "come":"", "in":"", "Key":"value" }
+
+englishPhrase = input("please enter an English word or phrase to translate:")
+englishWords = englishPhrase.lower().split()
+alienwords = []
+
+
+
+for word in englishWords:
+    if word in alienDictionary:
+        alienwords.append(alienDictionary[word])
+    else:
+            alienwords.append(word)
+            
+while englishPhrase!= quit:
+
+print("I alien , says:" ," " .join(alienwords))
+    print("========================")
+    for words in alienwords:
+        print(words)
