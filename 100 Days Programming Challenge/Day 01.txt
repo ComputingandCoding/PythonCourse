@@ -1,0 +1,37 @@
+Write a program that accepts a sentence and find out the number of letters and Numbers.
+If the sentence is "Hello World! 123"
+LETTERS 10
+NUMBERS 3
+
+==================================================================================
+sentence=input("Enter a sentence of letter and digit to count:")
+count = {"Digits":0, "Letters":0, "space":0,"special":0}
+
+for character in sentence:
+	if character.isdigit():  #if string is digit "True" then update it to Digits
+		count["Digits"]+=1
+	elif character.isalpha():  #if string is Letter "True" then update it to Letters
+		count["Letters"]+=1
+	elif character == " ":
+		count["space"]+=1
+	else:
+		count["special"]+=1
+
+print("Letters", count["Letters"])
+print("Digits", count["Digits"])
+print("space",count["space"])
+print("special", count["special"])
+
+==================================================================================
+
+Notes:  
+The method isdigit() checks whether the string consists of digits only.
+str.isdigit()
+When we run above program, it produces following result 
+True  or False
+
+The method isalpha() checks whether the string consists of alphabetic characters only.
+str.isalpha()
+When we run above program, it produces following result 
+True  or False
+
