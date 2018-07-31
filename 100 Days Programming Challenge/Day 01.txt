@@ -37,3 +37,6 @@ str.isalpha()
 When we run above program, it produces following result 
 True  or False
 
+COUNT += 1  ( COUNT = COUNT +1 )
+
+
