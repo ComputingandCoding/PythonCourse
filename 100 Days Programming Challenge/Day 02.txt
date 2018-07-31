@@ -1,1 +1,47 @@
-A triangle can be classified based on the lengths of its sides as equilateral, isosceles or scalene. All 3 sides of an equilateral triangle have the same length. An isosceles triangle has two sides that are the same length, and a third side that is a different length. If all of the sides have different lengths then the triangle is scalene. Write a program that reads the lengths of 3 sides of a triangle from the user. Display a message indicating the type of the triangle.
+A triangle can be classified based on the lengths of its sides as equilateral, isosceles or scalene. 
+If all All 3 sides are same length then triangle is an equilateral triangle 
+If Two sides are equal then the trigangle is an isosceles triangle 
+If all of the sides have different lengths then the triangle is scalene.
+Write a program that reads the lengths of 3 sides of a triangle from the user.
+Display a message indicating the type of the triangle.
+
+side1 = input("Enter a side: ")
+side2 = input("Enter a side: ")
+side3 = input("Enter a side: ")
+
+if side1 == side2 and side2 == side3:
+	print("Equilateral")
+elif side1 == side2 or side2 == side3 or side1 == side3:
+	print("Isosceles")
+else:
+	print("Scalene")
+  
+=======================================================
+Notes:
+  
+*****Boolean Operators******
+Operator   "=="  means    Equal to
+Operator  "!="  means   Not equal to
+  
+******Logical Operators********
+
+and   True if both are true  x and y
+or 	True if at least one is true 	x or y
+not 	True only if false 	not x
+
+=======================================================
+Let's do some more practice
+
+x = 5
+y = 8
+
+print("x == y:", x == y)
+print("x != y:", x != y)
+print("x < y:", x < y)
+print("x > y:", x > y)
+print("x <= y:", x <= y)
+print("x >= y:", x >= y)
+
+please check your output what you get for above lines of code, which one comes True and which ones are False.
+try changing the value of x and y and see the resutls again .
+
