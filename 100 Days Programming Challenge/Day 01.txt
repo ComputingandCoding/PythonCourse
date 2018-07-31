@@ -2,6 +2,8 @@ Write a program that accepts a sentence and find out the number of letters and N
 If the sentence is "Hello World! 123"
 LETTERS 10
 NUMBERS 3
+SPACE 2
+SPECIAL 1
 
 ==================================================================================
 sentence=input("Enter a sentence of letter and digit to count:")
