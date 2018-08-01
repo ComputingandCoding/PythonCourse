@@ -1,7 +1,6 @@
 # script for multiple devices , Devises IP's are 
 #stored in txt file
 
-
 import getpass
 import sys
 import telnetlib
@@ -25,11 +24,11 @@ for IP in f:
 	tn.write(b"show run\n")
 	tn.write(b"exit\n")
 
-	readoutput = tn.read_all()
-	saveoutput = open("Switch" + HOST , "w")
-	saveoutput.write(readoutput.decode("ascii"))
-	saveoutput.write("\n")
-	saveoutput.close
+	readconfig = tn.read_all()
+	saveconfig = open("Switch" + HOST , "w")
+	saveconfig.write(saveconfig.decode("ascii"))
+	saveconfig.write("\n")
+	saveconfig.close()
 	print(tn.read_all().decode("ascii"))
 
 
