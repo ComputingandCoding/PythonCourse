@@ -8,6 +8,10 @@ for name in names:
 
 
 ======================================
+names = ['Simon','Kate','Vanya']
+for item in range:
+    print('Hello', item)
+======================================
 
 Count = 1
 total = 0
