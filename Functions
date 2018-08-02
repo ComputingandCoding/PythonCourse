@@ -4,6 +4,11 @@ def hello():
     print("Hello, world!")
     
 =======================================================
+def hello():
+	print('HEEELLLOOO')
+hello()
+hello()
+=======================================================
 def greet(name,number):
 	print("Hello, " + name*number + "!")
 
