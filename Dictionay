@@ -1,4 +1,10 @@
-
+def defination() = {
+     "apple": 'a red fruit'
+     'banana': ' a yellow fruit'
+     'orange': 'a orange sphere '
+}
+defination()
+======================================================================
 Alien Translator:
 
 alienDictionary = {"we":"vorag", "come":"", "in":"", "Key":"value" }
