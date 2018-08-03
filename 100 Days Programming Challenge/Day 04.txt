@@ -1,0 +1,12 @@
+Write a program which is divisible by 1,2,3,4,5,6,7,8,9
+
+for i in range(0,10000):
+	if (i%2==0):
+		if (i%3==0):
+			if (i%4==0):
+				if (i%5==0):
+					if (i%6==0):
+						if (i%7==0):
+							if (i%8==0):
+								if (i%9==0):
+									print(i,"Hurray you found me!!!")
