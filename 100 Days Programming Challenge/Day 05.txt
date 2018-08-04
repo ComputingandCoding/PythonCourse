@@ -60,4 +60,4 @@ print(string[4] ,"is 4 index in Hello")
 
 print(len(string))
 print(len(string)-1)
-print(string[len(string_value_number)-1])
+print(string[len(string)-1])
