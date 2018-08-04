@@ -49,14 +49,14 @@ print(type(string_value_number))
 
 string = "Hello"
 
-print("H:0, e:1 l:2 l:3 o:5")
+print("H:0, e:1 l:2 l:3 o:4")
 
 
 print(string[0] ,"is 0 index in Hello")
-print(string[1] ,"is 2 index in Hello")
-print(string[2] ,"is 3 index in Hello")
-print(string[3] ,"is 4 index in Hello")
-print(string[4] ,"is 5 index in Hello")
+print(string[1] ,"is 1 index in Hello")
+print(string[2] ,"is 2 index in Hello")
+print(string[3] ,"is 3 index in Hello")
+print(string[4] ,"is 4 index in Hello")
 
 print(len(string))
 print(len(string)-1)
