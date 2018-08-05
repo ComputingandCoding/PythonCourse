@@ -1,4 +1,18 @@
 
+'''
+Think of a class as an objuct factory
+Every Object is mutually exclusive from every other object - They are Unique!!!
+Class Variable -  Variable that All instances of the class share
+Instance variable - Belongs exclusive to the object to which it assigned 
+Instance -  object
+Instantiation - Creating an object
+Method - A function that is linked to an object via the class - a function inside
+the class
+Inheritance - if the class you creating is copy of another class you wrote before, you can use inheritance 
+when one class inheret from another, it will takes on all the methonds and the attibures of the first class
+the Original Class is called Parent - and the class you creating now is called Child
+''''
+
 PERSON CLASS:
 
 class Person():
