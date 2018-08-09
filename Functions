@@ -9,6 +9,27 @@ def hello():
 hello()
 hello()
 =======================================================
+#POSITIONAL ARGUMENTS
+def discribe_pet(animal, name):
+	'''Display infomation about a pet'''
+	print('\nI have a' + 'animal' + '.')
+discribe_pet(animal='hamster', 'Harry')
+discribe_pet(name='Willie', animal='Dog')
+=======================================================
+#KEYWORD ARGUMENTS
+def discribe_pet(animal, name):
+	'''Display infomation about a pet'''
+	print('\nI have a' + 'animal' + '.')
+discribe_pet(animal='hamster', 'Harry')
+discribe_pet(name='Willie', animal='Dog')
+=======================================================
+def greet_user(username):
+	'''Display a simple greeting'''
+	print('Hello, ' + username + '!')
+greet_user('Jessi')
+greet_user('Diana')
+greet_user('Brandon')
+=======================================================
 def greet(name,number):
 	print("Hello, " + name*number + "!")
 
