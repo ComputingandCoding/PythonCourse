@@ -1,1 +1,16 @@
-
+grade = input('Enter your grade')
+if grade >= 90:
+  print('A')
+elif grade >= 80:
+	print('B')
+elif grade >= 70:
+	print('C')
+elif grade >= 65:
+	print('D')
+else:
+  print('F')
+'''
+elif means when you need more if's then
+you could just type in elif insted of
+typing and else all the time
+'''
