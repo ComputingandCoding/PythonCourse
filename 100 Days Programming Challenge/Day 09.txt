@@ -1,0 +1,56 @@
+Q1 # 6. A person puts in the amount of cupcakes they want 
+# and your program returns the total amount they have to pay. 
+# The cupcakes are 1.25$ each and only 5 cupcakes can be 
+# made at a time!
+user_input = input("Enter the amount of cupcakes you desire: ")
+# Convert to int so we can do some computations
+amount = int(user_input)
+if amount <= 5:
+	cost = amount * 1.25
+	print("Your order costs", cost)
+else:
+	print("We can only make 5 cupcakes at a time!")
+print("\n")
+
+Q2 # Repeating Actions with Loops
+# for-each loop
+names = ["ron", "harry", "hermione"]
+for name in names :
+	print("Hi "+ name.capitalize())
+print("\n")
+# for loop
+pie_num = 5
+for pie in range(0, pie_num):
+	print(str(pie) + " pies")
+# while 
+given = 0
+while given <= 5:
+	ans = input("Enter a number that is greater than 5: ")
+	given = int(ans)
+print("You said "+ ans) # ?? Scope? Based on method.
+print("\n")
+
+
+Q3 # 7. Tweet Validator
+# Tweets are these messages you post on the Internet that 
+# have to be 140 characters or shorter. How can we make sure that 
+# a given string is the appropriate length? Print out the 
+# length of the string and whether it is valid or not.
+# INPUT:
+# "OMG Python!"
+# OUTPUT:
+# 11
+# Valid
+maxTweetLength = 140
+tweet = "OMG Python!"
+count = 0
+for char in tweet:
+    count = count + 1
+# OR WE COULD DO: count = len(tweet) --> 
+# to get the length (i.e. number of characters)
+print(count)
+if count <= maxTweetLength:
+    print("Valid")
+else:
+    print("Invalid")
+print("\n")
