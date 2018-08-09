@@ -1,0 +1,43 @@
+Q1 # 8. Processing Grades
+# Given a list of grades, grades = [81, 70, 60, 91],
+# print the average and the number of grades above 80.
+grades = [81, 70, 60, 91]
+goodGrade = 80
+numberOfGrades = len(grades)
+totalOfGrades = 0
+numberOfGoodGrades = 0;
+for grade in grades: 
+	if (grade > goodGrade):
+		print("WOW! " + str(grade))
+		numberOfGoodGrades = numberOfGoodGrades + 1
+	totalOfGrades = totalOfGrades + grade
+average = totalOfGrades / numberOfGrades
+print("Average: " + str(average))
+print("Number of good grades: " + str(numberOfGoodGrades))
+print("\n")
+
+
+Q2 # Dictionaries: Data types that store associations
+capitals = {"Ontario":"Toronto", 
+"Canada":"Ottawa", 
+"Croatia": "Zagreb"}
+print(capitals["Ontario"])
+print("\n")
+
+# Iterate with for-loop
+for place in capitals:
+	print(place)
+
+print("\n")
+
+Q3 # 9. Quiz the capitals
+# Given the capitals dictionary from before, make a 
+# flash card-like quiz, where every location is the 
+# question and the capitol is the answer.
+for place in capitals:
+    answer = input("What is the capitol of " + place + "? ")
+    if capitals[place] == answer:
+        print("Right answer!")
+    else:
+        print("Sorry, the answer was " + capitals[place])
+        
