@@ -1,0 +1,38 @@
+Q1 If I run the following code, what will be the final value of b?
+a = 1
+b = a * 5
+a = 2
+# a) 5
+# b) 1
+# c) 10
+# The answer would be ??
+
+Q2: # Lists: a collection box
+groceries = ["apples", "cabbage", "soylent"]
+print(groceries[0]) # apples
+print(groceries[2]) # soylent
+print(groceries[-1]) # soylent --> DOESN'T GIVE ERROR (weird)
+print("\n")
+
+Q3: # 3. What is the result of running the code print(groceries[3])?
+# a) Error
+# b) Soylent
+# c) Apples
+# Guess: Error bc out of range
+#print(groceries[3])
+# Reality: IndexError: list index out of range
+
+Let's try some more list methods
+# Get length of a list
+print(len(groceries))
+
+# Append things to a list
+groceries.append("tofu")
+print(groceries[3])
+print(groceries)
+
+Q4:# Uppercase letters
+kittens = "kittens"
+print(kittens.upper())
+print(kittens) # strings are immutable
+print("\n")
