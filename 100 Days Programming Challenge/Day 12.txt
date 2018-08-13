@@ -9,7 +9,7 @@ smaller_num = smaller(5, 2)
 print(smaller_num)
 print(smaller(-1, 10))
 
-# 2 Moare functions!!
+# 2 More functions!!
 def fruit_salad(fruit1="apples", fruit2="pears", fruit3="oranges"):
 	your_fruit_salad = fruit1 + " " + fruit2 + " " + fruit3
 	return your_fruit_salad
