@@ -1,36 +1,66 @@
-Question:
-Write a program that accepts a comma separated sequence of words as input and 
-and prints the words sorted in alphabetically
-for example:
-Input = bob, apple, dog, car, fan ,elephant, mouse
-output = apple, bob, car, dog , elephant, fan , mouse
-
-items = [x for x in input("Enter items in any order separated by ',' :").split(',')]
-items.sort()
-print(items)
-print(','.join(items))
 
 
-Questoin:
+class HouseMember:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+		print ('Initialized HouseMember: {}'.format(self.name))
 
-Question£º
-Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
-Input:
-Hello world
-Coding Coding Coding
-Output:
-HELLO WORLD
-CODING CODING CODING
+	def HouseMemberInfo(self):
+		'''print details of house member'''
+		print ("Name: {}, Age: {}".format(self.name,self.age))
 
 
-Solution:
-lines = []
-while True:
-    s = input("Enter the sentence: ")
-    if s:
-        lines.append(s.upper())
-    else:
-        break;
+class Parents(HouseMember):
+	'''Represents a Parent.'''
+	def __init__(self, name, age, role):
+		HouseMember.__init__(self, name, age)
+		self.role = role
+		print ('Initialized Parent: {}'.format(self.name))
 
-for sentence in lines:
-    print sentence
+	def Info(self):
+		HouseMember.HouseMemberInfo(self)
+		print ('Parent role is :{}'.format(self.role))
+
+class Kids(HouseMember):
+	'''Represents a Kids.'''
+	def __init__(self, name, age, role):
+		HouseMember.__init__(self, name, age)
+		self.role = role
+		print ('Initialized Kids: {}'.format(self.name))
+
+	def Info(self):
+		HouseMember.HouseMemberInfo(self)
+		print ('Kid role is :{}'.format(self.role))
+
+print("==============")
+F = Parents("Bob",40,"Father")
+print("==============")
+M = Parents("Eve", 38,"Mother")
+print("==============")
+D = Kids("ziya", 12, "Daughter")
+print("==============")
+S = Kids("Billy", 9, "Son")
+
+print("==============")
+print(F.Info())
+print("#########################################################")
+print("==============")
+print(M.Info())
+print("==============")
+print(D.Info())
+print("==============")
+print(S.Info())
+
+
+family = [F,M,D,S]
+for member in family:
+	print(member.Info())
+  
+  
+Note: Why is this printing 'None' in the output? 
+Because there are two print statements. First is inside function and second is outside function. When function not return any thing that time it return None value.
+Use return statement at end of function to return value.
+
+
+
