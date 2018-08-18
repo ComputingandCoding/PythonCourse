@@ -34,11 +34,8 @@
 #### Task
 Let's add some code to our **hello.py** file to do some cool stuff with strings.
 ```python
-print('Bob'*3)
-print('Bob'+3)
+print("Hello World!)
 print('hello'.upper())
-print('GOODBYE'.lower())
-print("the lord of the rings".title())
 ```
 ---
 
