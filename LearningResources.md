@@ -6,3 +6,4 @@
 https://www.youtube.com/watch?v=VsuArvWwuDI&list=PLLjmbh6XPGK5pM1QJ8I1ccdGiCTHa1IC8&index=1
 https://realpython.com/documenting-python-code/
 https://pythonspot.com/
+https://trallard.gitbooks.io/code-first-girls-advanced-python-course/content/session-5.html
