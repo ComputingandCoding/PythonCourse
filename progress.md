@@ -1,7 +1,7 @@
 
 
 
-![Computing and Coding Logo](Banner.jpg)
+![Computing and Coding Logo](Banner.JPG)
 
 #  - Heading
 ## Bold
