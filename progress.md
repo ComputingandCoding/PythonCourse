@@ -1,9 +1,10 @@
 
 
-<img src='Banner.jpg' width='300px'>
+
+![Computing and Coding Logo](Banner.jpg)
 
 #  - Heading
-** Bold
+## Bold
 -  lis item
 
 ------
