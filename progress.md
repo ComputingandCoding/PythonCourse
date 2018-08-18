@@ -1,6 +1,6 @@
 
 
-<img src='./assets/banner.jpg' width='300px'>
+<img src='Banner.jpg' width='300px'>
 
 #  - Heading
 ** -- Bold
@@ -8,7 +8,7 @@
 
 ------
 
-![clone](./assets/clone_gitkraken.gif)
+![clone](Banner.jpg)
 [PEP 20 (The Zen of Python)](https://www.python.org/dev/peps/pep-0020/) for hyperlink
 
 
