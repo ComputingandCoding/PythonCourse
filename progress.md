@@ -1,7 +1,7 @@
 
 
-
-![Computing and Coding Logo](Banner.JPG)
+<img src='Banner.JPG' width='300px'>
+![Computing and Coding Logo]
 
 #  - Heading
 ## Bold
