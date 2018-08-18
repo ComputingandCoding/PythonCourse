@@ -1,0 +1,45 @@
+# Q1: How much is 2345 CAD in US $? And in GBP?
+# (1 CAD = 0.77 EUR, 1 CAD = 0.60 GBP)
+
+Solution:
+
+cad = 2345
+us = CAD * 0.77
+print("2345 CAD is {} in US$".format(us))
+
+gbp = cad * 0.49
+print("2345 CAD is {} in GBP".format(gbp))
+
+
+#Q2 : write these print statements and note the result of each print
+
+print(1/3)
+print(1/0)
+print(5 + 6)
+print(-6)
+print((2+5) * 3 / 7)
+print("\n")
+print("Hello")
+print("Hello " + "Waterloo")
+print("\n")
+
+Q3: What would we change in print("Hello" + 4) to make it not throw an error anymore and output Hello4?
+try each option below to see which one work
+# a) print(int("Hello") + 4)
+# b) print(str("Hello") + 4)
+# c) print("Hello" + str(4))
+# The answer is ?
+
+Q4: # Variable --> a box
+box = 3
+print(box)
+double_box = box * 2
+print(double_box)
+number_box = 8
+number_box = number_box + 1
+print(number_box)
+box = "kittens"
+print(box)
+box = "kittens" + "love" + "yarn"
+print(box)
+print("\n")

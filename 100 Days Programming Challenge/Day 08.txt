@@ -1,0 +1,47 @@
+Q1# Boolean: Python finds out the truth
+print(5 > 3) # True
+print(5 <= 2) # False
+print('a' in "face") # True
+print('b' in "pants") # False
+print("pants" == "face") # False
+print(2 == 4/2.0) # True
+print("\n")
+
+
+Q2# 4. What will be the results of...
+hands = 2
+handy_person = hands > 2
+print(handy_person)
+print("\n")
+#a) True
+#b) False
+#c) Error
+# B --> False b/c 2 is not greater than 2
+
+Q3 # Flow Control: Programs have to be guided through 
+# multiple steps. They do this by checking what's true 
+# at every step.
+today = "Sunday"
+if today == "Saturday":
+	print ("Pizza")
+else:
+	print("No Pizza")
+print("\n")
+
+Q4 # I/O: Talking to people:
+name = input("What's your name?")
+print("Hello " + name)
+
+Q5 # 5. Why doesn't this code work?
+# age = input("How old are you?")
+# print(age + 7)
+# We get a "TypeError: Can't convert 'int' object to str implicitly"
+# to fix this we can do...
+age = input("How old are you?")
+newAge = int(age) + 7
+print("{}".format(newAge))
+print(str(newAge))
+# We needed to turn age into an int to add it to 7 and then
+# convert it back to a string to print it out
+print("\n")
+

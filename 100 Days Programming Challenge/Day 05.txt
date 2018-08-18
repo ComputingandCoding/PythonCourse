@@ -1,0 +1,63 @@
+
+from os import system as cmd
+cmd('cls')
+
+#Excercise # 1
+s = 'Computing'
+s1  = '&'
+s3 = 'Coding'
+print(s+s1+s3)
+
+#Excercise # 2
+print("The * operator creates multiple copies of a string.")
+print("Hello"*10) 
+print("Hello "*10) 
+
+#Excercise # 3
+if  'a' in 'abc':
+	print('Yes a is in abc')
+if 'z' not in 'abc':
+	print('yes z not in abc')
+
+#Excercise # 4
+
+# ord(c) returns the ASCII value for character c:
+
+print(ord('a'))
+print(ord('A'))	
+
+#chr(n)  Returns a character value for the given integer.
+
+print(chr(97))
+print(chr(65))
+
+#Excercise # 5
+s = 'I am a string.'
+print("'s' length is: " , len(s))
+
+
+#Excercise # 6
+#str(obj) Returns a string representation of an object.
+
+number = 49.2
+print(type(number))
+string_value_number = str(49.2)
+print(type(string_value_number))
+
+#Excercise # 7
+#Indexing
+
+string = "Hello"
+
+print("H:0, e:1 l:2 l:3 o:4")
+
+
+print(string[0] ,"is 0 index in Hello")
+print(string[1] ,"is 1 index in Hello")
+print(string[2] ,"is 2 index in Hello")
+print(string[3] ,"is 3 index in Hello")
+print(string[4] ,"is 4 index in Hello")
+
+print(len(string))
+print(len(string)-1)
+print(string[len(string)-1])

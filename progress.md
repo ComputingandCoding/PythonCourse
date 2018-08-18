@@ -1,1 +1,45 @@
+
+
+<img src='./assets/banner.jpg' width='300px'>
+
+#  - Heading
+** -- Bold
+-  lis item
+
+------
+
+![clone](./assets/clone_gitkraken.gif)
+[PEP 20 (The Zen of Python)](https://www.python.org/dev/peps/pep-0020/) for hyperlink
+
+
+| MAC / Linux users | Windows users |
+| --- | --- |
+
+<br/> <img src='assets/banner.jpg' style='display: block; padding:10px' width='200px'> <br/>
+
+```python "hello.py"```
+
+
+| OPERATOR | WHAT IT DOES |
+| --- | --- |
+| + | addition |
+| - | subtraction |
+| \* | multiplication |
+| / | division |
+| \*\* | exponent |
+| % | modulo |
+
+
+---
+#### Task
+Let's add some code to our **hello.py** file to do some cool stuff with strings.
+```python
+print('Bob'*3)
+print('Bob'+3)
+print('hello'.upper())
+print('GOODBYE'.lower())
+print("the lord of the rings".title())
+```
+---
+
 https://docs.google.com/forms/d/1tRqMW8LWGSb_qW4ZJeLf21ZpeIyi_Eu48HV-fqf-zWk/edit#responses
