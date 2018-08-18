@@ -3,7 +3,7 @@
 <img src='Banner.jpg' width='300px'>
 
 #  - Heading
-** -- Bold
+** Bold
 -  lis item
 
 ------
