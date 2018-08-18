@@ -1,6 +1,6 @@
 
 
-<img src='Banner.JPG' width='300px'>
+<img src='Banner.JPG' width='600px'>
 ![Computing and Coding Logo]
 
 #  - Heading
