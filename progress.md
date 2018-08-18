@@ -15,7 +15,7 @@
 | MAC / Linux users | Windows users |
 | --- | --- |
 
-<br/> <img src='assets/banner.jpg' style='display: block; padding:10px' width='200px'> <br/>
+<br/> <img src='Banner.jpg' style='display: block; padding:10px' width='200px'> <br/>
 
 ```python "hello.py"```
 
