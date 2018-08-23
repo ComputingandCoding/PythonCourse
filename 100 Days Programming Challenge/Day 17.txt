@@ -1,4 +1,4 @@
-Question:
+Question1:
 Write a program, which will find all such numbers between 1 and 100 (both included) such that each digit of the number is an even number.
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
@@ -7,8 +7,14 @@ In case of input data being supplied to the question, it should be assumed to be
 
 Solution:
 values = []
-for i in range(1000, 3001):
+for i in range(1, 100):
     s = str(i)
     if (int(s[0])%2==0) and (int(s[1])%2==0):
         values.append(s)
 print ",".join(values)
+
+Question1:
+Now extend your program for to find all number b/w 100 and 200
+
+Question1:
+Now extend your program for to find all number b/w 1000 and 2000
