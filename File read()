@@ -1,0 +1,76 @@
+open() -- to open the file for reading
+
+open() creates an object that can be addressed in python code
+
+
+MODE 	Description
+'r' 	read only mode
+'w' 	write - overwrites file with same name
+'r+' 	read and write mode
+'a' 	opens for appending to end of file
+
+
+filecontent = poem_file.read()
+
+print(filecontent)
+
+.read() loads the content of the file into memory as a string, including formatting such as new line (\n)
+
+
+reading a file with .read(n) where n = number of characters to read
+each time poem_file.read(10) runs, the next 10 characters are read.
+
+
+
+.read() returns a string
+These strings can be manipulated just like any other string
+Boolean tests such as:
+
+    .upper()
+    .title()
+    string slices, e.g.- cities[3:9]
+    etc..
+
+and string methods can be performed such as:
+
+    .isdigit()
+    .isalpha()
+    etc...
+
+
+
+File read as a list with .readlines()
+
+converts the lines of a file into a list of strings
+
+# open address to file
+poem1 = open('poem1.txt', 'r')
+
+# readlines and print as a list
+poem_lines = poem1.readlines()
+poem_lines
+
+# [ ] review and run example
+for line in poem_lines:
+    print(line)
+
+
+
+remove newline characters from lists created using .readlines()
+
+for line in poem_lines:
+    poem_lines[count] = line[:-1]
+    count += 1
+
+line[:-1] sets the end point at the last character of the string, the result is the '\n' (newline) character is omitted
+
+
+
+File .close() method frees resources
+
+file.close() method removes the reference created from file open() function
+
+poem1.close()
+
+
+
