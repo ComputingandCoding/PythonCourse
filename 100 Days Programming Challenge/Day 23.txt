@@ -1,0 +1,44 @@
+Please write a program which will take in a word from a user and search for that word in the word.txt file.
+
+target = input("Enter a word: ")
+
+with open("word.txt", "r") as textfile:
+	lines = textfile.readlines()
+	is_found = False
+	for word in lines:
+		if word.strip() == target:
+			is_found = True
+	if is_found == True:
+		print(target)
+	else:
+		print("Not Found")
+    
+    
+Please write a program which count and print the numbers of each character, from file letters.txt.
+Example:
+If the following string is given as input from file letters.txt to the program:
+abcdefgabc
+Then, the output of the program should be:
+a,2
+c,2
+b,2
+e,1
+d,1
+g,1
+f,1
+Hints:
+Use dict to store key/value pairs.
+Use dict.get() method to lookup a key with default value.
+
+
+with open("letters.txt", "r") as textfile:
+	letters = textfile.readline()
+	letter_dict = {}
+	for letter in letters:
+		if letter in letter_dict:
+			letter_dict[letter] = letter_dict[letter] + 1
+		else:
+			letter_dict[letter] = 1
+	for key in letter_dict.keys():
+		print(key, letter_dict[key])
+
