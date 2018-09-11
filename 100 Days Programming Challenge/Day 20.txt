@@ -1,0 +1,31 @@
+Open a file read-only
+Use a for loop to read each line
+Count the lines and print out the number of lines
+
+
+Solution:
+f = open('anyfile.txt')
+count = 0
+for line in f:
+    count = count + 1
+print('Line Count:', count)
+
+
+
+We can put an if statement in our for loop to only print lines that meet some criteria
+
+Solution:
+f = open('anyfile.txt')
+for line in f:
+    if line.startswith('a'):
+        print(line)
+        
+        
+fileName = input('Enter the file name:  ')
+fileHandler = open(fileName)
+count = 0
+for line in fileHandler:
+    if line.startswith('a') :
+        count = count + 1
+print('There were', count, 'line started with a', fileName)
+
