@@ -1,0 +1,19 @@
+import turtle
+colors=['yellow', 'orange','red', 'purple', 'blue', 'green','pink']
+t=turtle.Pen()
+t.speed(0)
+t.shape("turtle")
+turtle.bgcolor('white')
+y=10
+while y < 360:
+	t.reset()
+	for x in range(50):
+		t.pencolor(colors[x%6])
+		t.width(x/100+1)
+		t.forward(x)
+		t.left(y)
+		print(x)
+	y=y+15
+	print(y)
+    
+input()
