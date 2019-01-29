@@ -1,0 +1,10 @@
+for y in range(10000):
+	if (y%3 == 0) & (y%4 ==0) & (y%5==0) & (y%6==0) & (y%19==0):
+		print(y)
+
+for y in range(100):
+	if (y%3 == 0):
+		if (y%4 ==0):
+			if (y%5==0):
+				print(y)
+	
